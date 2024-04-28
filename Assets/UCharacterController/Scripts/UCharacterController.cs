@@ -7,7 +7,6 @@ namespace UCharacterControllerSystem
     {
         public CharacterController CC {private set; get;}
 
-
         [SerializeField] private UCharacterControllerModule[] modules;
 
         public T GetModule<T>() where T:UCharacterControllerModule
